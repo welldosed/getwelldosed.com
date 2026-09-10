@@ -1,0 +1,1 @@
+const g=document.getElementById('gate');if(sessionStorage.getItem('wd21')==='yes')g.classList.add('hidden');document.getElementById('yes').onclick=()=>{sessionStorage.setItem('wd21','yes');g.classList.add('hidden')};document.getElementById('no').onclick=()=>{g.innerHTML='<h2>This site is intended only for adults 21 and older.</h2>'};
